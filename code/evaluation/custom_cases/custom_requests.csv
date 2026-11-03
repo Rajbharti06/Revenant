@@ -1,0 +1,6 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+custom_01,leila.haddad@yahoo.com,2026-08-27T14:17:00Z,COMPLETE,2026-08-28T09:03:00Z,2026-09-08T13:40:00Z,"Could you send me a copy of the personal data you hold about me? I still use the account, so please do not delete anything."
+custom_02,jonas.berg@outlook.com,2026-08-29T06:51:00Z,PARTIALLY_COMPLETE,2026-08-30T17:12:00Z,2026-09-10T09:15:00Z,"Mein Kontoprofil ist weg, aber das alte Suchergebnis zeigt mich noch. Bitte löschen Sie mein Konto und alle verbleibenden Einträge."
+custom_03,nadia.petrescu@yahoo.com,2026-08-31T15:42:00Z,COMPLETE,2026-09-02T10:08:00Z,2026-09-18T12:25:00Z,I used this Yahoo address before changing the email on my account. Please remove records linked to both the old and current addresses.
+custom_04,mateo.rios@outlook.com,2026-08-21T18:06:00Z,PARTIALLY_COMPLETE,2026-08-22T07:25:00Z,2026-09-04T15:00:00Z,Quiero recibir una copia de mis datos personales en un formato portátil. No quiero cerrar la cuenta.
+custom_05,Keiko.Nakamura@Gmail.com,2026-09-01T12:00:00Z,COMPLETE,2026-09-02T12:00:00Z,2026-09-15T12:00:00Z,"I was told that deletion was complete, but the account and its search result can still be found. Please investigate and finish the deletion."

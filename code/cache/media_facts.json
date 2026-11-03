@@ -1,0 +1,248 @@
+{
+ "evidence_04": [
+  {
+   "resource_id": "account_5762",
+   "present": true,
+   "identifiers": [
+    "user_11"
+   ]
+  },
+  {
+   "resource_id": "support_9538",
+   "present": true,
+   "identifiers": []
+  }
+ ],
+ "evidence_09": [
+  {
+   "resource_id": "search_428",
+   "present": true,
+   "identifiers": [
+    "g.silva76@gmail.com",
+    "user_13"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "search_1874",
+   "present": true,
+   "identifiers": [
+    "g.silva76.jr@gmail.com"
+   ],
+   "pii": true
+  }
+ ],
+ "evidence_14": [
+  {
+   "resource_id": "data_flow_1121",
+   "present": true,
+   "identifiers": [
+    "jain.aditi@gmail.com"
+   ],
+   "active": true,
+   "pii": true
+  },
+  {
+   "resource_id": "data_flow_9846",
+   "present": true,
+   "identifiers": [
+    "lucia-torres@gmail.com"
+   ],
+   "active": true,
+   "pii": true
+  }
+ ],
+ "evidence_18": [
+  {
+   "resource_id": "export_1842",
+   "system": "export_service",
+   "present": true,
+   "identifiers": [],
+   "via_alias": "NST-2026-0718-1842",
+   "pii": true
+  }
+ ],
+ "evidence_19": [
+  {
+   "resource_id": "analytics_7438",
+   "present": true,
+   "identifiers": [
+    "darwish.omar@icloud.com",
+    "user_20"
+   ],
+   "pii": true
+  }
+ ],
+ "evidence_23": [
+  {
+   "resource_id": "export_1260",
+   "present": true,
+   "identifiers": [
+    "ingrid.dahl@outlook.com"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "export_1261",
+   "present": true,
+   "identifiers": [
+    "marcus.lee@northstar.shop"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "export_1258",
+   "present": true,
+   "identifiers": [
+    "daniel.park@northstar.shop"
+   ],
+   "pii": true
+  }
+ ],
+ "evidence_27": [],
+ "evidence_28": [
+  {
+   "resource_id": "support_1034",
+   "present": true,
+   "identifiers": [
+    "kagyeman8947@fastmail.com"
+   ]
+  }
+ ],
+ "evidence_32": [
+  {
+   "resource_id": "backup_9287",
+   "present": true,
+   "identifiers": [
+    "areed1433@gmail.com"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "backup_9291",
+   "present": true,
+   "identifiers": [
+    "bluepeakco@outlook.com"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "backup_9288",
+   "present": true,
+   "identifiers": [
+    "miller.logistics@company.com"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "backup_9286",
+   "present": true,
+   "identifiers": [
+    "summit-retail@company.com"
+   ],
+   "pii": true
+  },
+  {
+   "resource_id": "backup_9281",
+   "present": true,
+   "identifiers": []
+  }
+ ],
+ "evidence_37": [
+  {
+   "resource_id": "audit_record_003",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  },
+  {
+   "resource_id": "audit_record_002",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  },
+  {
+   "resource_id": "audit_record_001",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  },
+  {
+   "resource_id": "audit_record_006",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  },
+  {
+   "resource_id": "audit_record_005",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  },
+  {
+   "resource_id": "audit_record_004",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ]
+  }
+ ],
+ "evidence_42": [
+  {
+   "resource_id": "tombstone_17",
+   "system": "identity_service",
+   "present": true,
+   "identifiers": [],
+   "via_alias": "user_17",
+   "category": "ACCOUNT_TOMBSTONE",
+   "pii": false
+  }
+ ],
+ "evidence_46": [
+  {
+   "resource_id": "object_19",
+   "system": "object_storage",
+   "present": true,
+   "identifiers": [],
+   "via_alias": "delivery_confirmation_19.pdf",
+   "category": "SUPPORT_ATTACHMENT",
+   "pii": true
+  }
+ ],
+ "evidence_55": [
+  {
+   "resource_id": "audit_record_003",
+   "present": true,
+   "identifiers": [
+    "user_03"
+   ],
+   "category": "SECURITY_AUDIT_LOG"
+  }
+ ],
+ "evidence_58": [
+  {
+   "resource_id": "support_001",
+   "present": true,
+   "identifiers": [
+    "priya.raman@gmail.com"
+   ],
+   "category": "SUPPORT_ATTACHMENT",
+   "pii": true
+  }
+ ],
+ "evidence_60": [
+  {
+   "resource_id": "marketing_001",
+   "present": true,
+   "identifiers": [
+    "sj.park@naver.com"
+   ],
+   "pii": true
+  }
+ ]
+}

@@ -1,0 +1,1169 @@
+{
+ "case_01": {
+  "users": [
+   "user_01"
+  ],
+  "resources": {
+   "account_service/account_001": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_54",
+    "present": false,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_02": {
+  "users": [
+   "user_02"
+  ],
+  "resources": {
+   "account_service/account_002": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_54",
+    "present": false,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_03": {
+  "users": [
+   "user_43"
+  ],
+  "resources": {
+   "account_service/account_7566": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_94",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "security_service/audit_record_2016": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_04": {
+  "users": [
+   "user_04"
+  ],
+  "resources": {
+   "analytics_platform/analytics_901": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": false,
+    "evidence": "evidence_56",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_05": {
+  "users": [
+   "user_05"
+  ],
+  "resources": {
+   "account_service/account_005": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_54",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_06": {
+  "users": [
+   "user_06"
+  ],
+  "resources": {
+   "account_service/account_006": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_90",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "search_service/search_001": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_57",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_07": {
+  "users": [
+   "user_07"
+  ],
+  "resources": {
+   "account_service/account_007": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_90",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "support_platform/support_001": {
+    "category": "SUPPORT_ATTACHMENT",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_58",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_08": {
+  "users": [
+   "user_08"
+  ],
+  "resources": {
+   "account_service/account_008": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_90",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "export_service/export_001": {
+    "category": "USER_EXPORT",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_59",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_09": {
+  "users": [
+   "user_61"
+  ],
+  "resources": {
+   "backup_service/backup_4978": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": true,
+    "evidence": "evidence_93",
+    "present": true,
+    "pii": true,
+    "active": true
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_10": {
+  "users": [
+   "user_10"
+  ],
+  "resources": {
+   "account_service/account_010": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_93",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "support_platform/support_002": {
+    "category": "SECONDARY_IDENTIFIER",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_61",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_11": {
+  "users": [
+   "user_32"
+  ],
+  "resources": {
+   "account_service/account_4248": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "analytics_platform/analytics_2034": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "integration_service/data_flow_9522": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "search_service/search_052": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "security_service/audit_record_9394": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": null,
+    "active": null
+   },
+   "support_platform/support_864": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_12": {
+  "users": [
+   "user_12"
+  ],
+  "resources": {
+   "account_service/account_9797": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "analytics_platform/analytics_9914": {
+    "category": "SECONDARY_IDENTIFIER",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   },
+   "security_service/audit_record_2945": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_13": {
+  "users": [
+   "user_33"
+  ],
+  "resources": {
+   "account_service/account_9335": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "search_service/search_1308": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "security_service/audit_record_4816": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": null,
+    "active": null
+   },
+   "support_platform/support_4218": {
+    "category": "SUPPORT_ATTACHMENT",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_14": {
+  "users": [
+   "user_37"
+  ],
+  "resources": {
+   "account_service/account_3677": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "backup_service/backup_3870": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": true,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "security_service/audit_record_987": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_03",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_15": {
+  "users": [
+   "user_15"
+  ],
+  "resources": {
+   "account_service/account_4745": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "integration_service/data_flow_9846": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": true
+   },
+   "security_service/audit_record_1596": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_16": {
+  "users": [
+   "user_53"
+  ],
+  "resources": {
+   "account_service/account_994": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "search_service/search_1007": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "security_service/audit_record_9528": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_17": {
+  "users": [
+   "user_17"
+  ],
+  "resources": {
+   "account_service/account_4092": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "backup_service/backup_3245": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": true,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": true
+   },
+   "security_service/audit_record_1797": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_18": {
+  "users": [
+   "user_50"
+  ],
+  "resources": {
+   "analytics_platform/analytics_037": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "integration_service/data_flow_4890": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "search_service/search_4013": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "support_platform/support_5569": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_19": {
+  "users": [
+   "user_19"
+  ],
+  "resources": {
+   "account_service/account_9102": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "search_service/search_6083": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   },
+   "security_service/audit_record_6793": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": null,
+    "active": null
+   },
+   "support_platform/support_9553": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_01",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_20": {
+  "users": [
+   "user_48"
+  ],
+  "resources": {
+   "integration_service/data_flow_1770": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "search_service/search_4262": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_94",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_21": {
+  "users": [
+   "user_21"
+  ],
+  "resources": {
+   "security_service/audit_record_3737": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_22": {
+  "users": [
+   "user_51"
+  ],
+  "resources": {
+   "analytics_platform/analytics_4440": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": true,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "search_service/search_8911": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "security_service/audit_record_3482": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_05",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_23": {
+  "users": [
+   "user_23"
+  ],
+  "resources": {
+   "export_service/export_7364": {
+    "category": "USER_EXPORT",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "search_service/search_898": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_24": {
+  "users": [
+   "user_24"
+  ],
+  "resources": {
+   "account_service/account_5334": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "search_service/search_5577": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_25": {
+  "users": [
+   "user_25"
+  ],
+  "resources": {
+   "security_service/audit_record_451": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_26": {
+  "users": [
+   "user_26"
+  ],
+  "resources": {
+   "account_service/account_5684": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "backup_service/backup_3120": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "integration_service/data_flow_6244": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "security_service/audit_record_5416": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   },
+   "support_platform/support_4715": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_27": {
+  "users": [
+   "user_27"
+  ],
+  "resources": {
+   "account_service/account_3866": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "backup_service/backup_5970": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "integration_service/data_flow_2295": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "security_service/audit_record_3830": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   },
+   "support_platform/support_4707": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_28": {
+  "users": [
+   "user_28"
+  ],
+  "resources": {
+   "account_service/account_5482": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "backup_service/backup_838": {
+    "category": "BACKUP_ARCHIVE",
+    "treatment": "BLOCK",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "integration_service/data_flow_2337": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": false
+   },
+   "security_service/audit_record_9265": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   },
+   "support_platform/support_2351": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": false,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_29": {
+  "users": [
+   "user_29"
+  ],
+  "resources": {
+   "analytics_platform/analytics_5208": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "integration_service/data_flow_3827": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "search_service/search_1993": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "support_platform/support_5281": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_30": {
+  "users": [
+   "user_30"
+  ],
+  "resources": {
+   "account_service/account_4163": {
+    "category": "USER_PROFILE",
+    "treatment": "DELETE",
+    "violation": false,
+    "evidence": "evidence_90",
+    "present": false,
+    "pii": null,
+    "active": null
+   },
+   "analytics_platform/analytics_3697": {
+    "category": "ANALYTICS_PROFILE",
+    "treatment": "ANONYMIZE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "integration_service/data_flow_8524": {
+    "category": "DATA_FLOW",
+    "treatment": "DISABLE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": true
+   },
+   "search_service/search_9359": {
+    "category": "SEARCH_INDEX_ENTRY",
+    "treatment": "DELETE",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "support_platform/support_6477": {
+    "category": "SUPPORT_MESSAGE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_92",
+    "present": true,
+    "pii": true,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_31": {
+  "users": [
+   "user_541"
+  ],
+  "resources": {
+   "identity_service/tombstone_440": {
+    "category": "ACCOUNT_TOMBSTONE",
+    "treatment": "REDACT",
+    "violation": false,
+    "evidence": "evidence_51",
+    "present": true,
+    "pii": false,
+    "active": null
+   },
+   "security_service/audit_record_6909": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_51",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ },
+ "case_32": {
+  "users": [
+   "user_542"
+  ],
+  "resources": {
+   "identity_service/tombstone_9178": {
+    "category": "ACCOUNT_TOMBSTONE",
+    "treatment": "REDACT",
+    "violation": true,
+    "evidence": "evidence_51",
+    "present": true,
+    "pii": true,
+    "active": null
+   },
+   "security_service/audit_record_7068": {
+    "category": "SECURITY_AUDIT_LOG",
+    "treatment": "RETAIN",
+    "violation": false,
+    "evidence": "evidence_51",
+    "present": true,
+    "pii": false,
+    "active": null
+   }
+  },
+  "intent": {
+   "deletion": true,
+   "source": "rules",
+   "agree": true
+  }
+ }
+}

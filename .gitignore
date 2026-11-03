@@ -1,0 +1,11 @@
+# secrets: never commit API keys
+.env
+# challenge data: download it from the official challenge repo (see README)
+dataset/
+# local artifacts
+__pycache__/
+*.pyc
+code/cache/llm_cache.json
+code/evaluation/full_trace.json
+*.zip
+log.txt

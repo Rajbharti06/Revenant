@@ -1,0 +1,18 @@
+{
+ "cases": 5,
+ "status_accuracy": 1.0,
+ "step_precision": 1.0,
+ "step_recall": 1.0,
+ "step_f1": 1.0,
+ "step_recall_ignoring_evidence": 1.0,
+ "field_accuracy": {
+  "step_no": 1.0,
+  "phase": 1.0,
+  "system_id": 1.0,
+  "resource_id": 1.0,
+  "operation": 1.0,
+  "state": 1.0,
+  "evidence_id": 1.0
+ },
+ "sequence_accuracy": 1.0
+}

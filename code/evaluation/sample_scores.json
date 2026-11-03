@@ -1,0 +1,18 @@
+{
+ "cases": 32,
+ "status_accuracy": 1.0,
+ "step_precision": 1.0,
+ "step_recall": 0.9067357512953368,
+ "step_f1": 0.951086956521739,
+ "step_recall_ignoring_evidence": 0.9067357512953368,
+ "field_accuracy": {
+  "step_no": 0.7512953367875648,
+  "phase": 0.9067357512953368,
+  "system_id": 0.9067357512953368,
+  "resource_id": 0.9067357512953368,
+  "operation": 0.9067357512953368,
+  "state": 0.9067357512953368,
+  "evidence_id": 0.9067357512953368
+ },
+ "sequence_accuracy": 0.5625
+}

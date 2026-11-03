@@ -1,0 +1,5 @@
+# Core pipeline: Python 3.10+ standard library only.
+# Optional, for reading screenshots locally without an LLM (results are already cached in code/cache/):
+rapidocr_onnxruntime
+pillow
+# PDFs are read with the `pdftotext` command-line tool (poppler-utils).
